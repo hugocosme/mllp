@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 1234
+EXPOSE 15000
 
 CMD [ "node", "example.js" ]

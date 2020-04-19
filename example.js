@@ -1,6 +1,6 @@
 var mllp = require('./index.js');
 
-var server = new mllp.MLLPServer('127.0.0.1', 1234);
+var server = new mllp.MLLPServer('127.0.0.1', 15000);
 
 // Subscribe to inbound messages
 server.on('hl7', function (data){
